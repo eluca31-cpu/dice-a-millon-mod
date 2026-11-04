@@ -1,6 +1,6 @@
 {
     "name": "Custom Dice Pack",
-    "author": "YourName Here",
+    "author": "eluca31-cpu",
     "version": "1.0.0",
     "description": "Adds customized dice and triggers that multiply by all values rolled.",
     "dice": [
@@ -8,6 +8,7 @@
             "ide": "total_multiplier_die",
             "rarity": 2,
             "prio": 4,
+            "start_item": true,
             "sprite": "sprites/cool_die.png",
             "faces": [
                 {"value": 1},
@@ -25,7 +26,7 @@
                 "value": 1 
             },
             "title": "Echoing Die",
-            "description": "Multiplies the total score by the combined value of all dice rolled this turn."
+            "description": "Multiplies the total score by the combined value of all dice rolled this turn. Activates at the end of the round."
         }
     ],
     "rings": []
